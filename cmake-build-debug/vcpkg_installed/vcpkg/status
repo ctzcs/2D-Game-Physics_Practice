@@ -1,0 +1,63 @@
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 11c3f140a64cea5115e422c1aaf4fce6ef33c3fde7abcb26213f8d20e07cf4b0
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-18
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 090eb7e4a41d9fbac7fefbc0a706b197f8d3c1e66ff28992f5f49a2f2ee19589
+Status: install ok installed
+
+Package: sdl2
+Version: 2.30.1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: f1ad708e8b0984d32f4286d770bb168b81286947b17c6433d85307425b12f59d
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Status: install ok installed
+
+Package: sdl2-gfx
+Version: 1.0.4
+Port-Version: 11
+Depends: sdl2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: f3b33ea167d3285d35f87c911c06c8599320b7a463f03005ca277f49babb2bc0
+Description: Graphics primitives (line, circle, rectangle etc.) with AA support, rotozoomer and other drawing related support functions wrapped up in a C based add-on library for the Simple Direct Media (SDL) cross-platform API layer.
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.1
+Depends: vcpkg-cmake
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: e532d090b0aa05d29c21a97d012d9120603268306f91b42175c8a5a6cca54720
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.43
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 79c3a85dde2e5ee9d97e0932a3ab79af71ab4c2b5efe240b247859f2d325f8a6
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: sdl2-image
+Version: 2.8.2
+Port-Version: 2
+Depends: libpng, sdl2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-mingw-dynamic
+Multi-Arch: same
+Abi: 5d7bdbb557a94d0004d0e89643fc3d6f0ab9aca230ecad041dbf86aec799b4ef
+Description: SDL_image is an image file loading library. It loads images as SDL surfaces and textures, and supports the following formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV
+Status: install ok installed
+

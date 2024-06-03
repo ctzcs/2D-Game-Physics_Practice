@@ -1,0 +1,30 @@
+Detecting compiler hash for triplet x64-mingw-dynamic...
+-- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7897".
+Compiler found: C:/Users/Administrator/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe
+All requested packages are currently installed.
+Total install time: 1.1 us
+sdl2 provides CMake targets:
+
+    find_package(SDL2 CONFIG REQUIRED)
+    target_link_libraries(main
+        PRIVATE
+        $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
+        $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
+    )
+
+sdl2-gfx provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(sdl2-gfx CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE SDL2::SDL2_gfx)
+
+The package zlib is compatible with built-in CMake targets:
+
+    find_package(ZLIB REQUIRED)
+    target_link_libraries(main PRIVATE ZLIB::ZLIB)
+
+sdl2-image provides CMake targets:
+
+    find_package(SDL2_image CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL2_image::SDL2_image>,SDL2_image::SDL2_image,SDL2_image::SDL2_image-static>)
+

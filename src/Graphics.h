@@ -1,7 +1,7 @@
 #ifndef GRAPHICS_H
 #define GRAPHICS_H
 //无语，这里因为文件夹差一个弄了好多次
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include "../lib//SDL2_gfx/SDL2_gfxPrimitives.h"
 #include "Physics/Vec2.h"
 #include <vector>
