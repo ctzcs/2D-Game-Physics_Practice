@@ -1,7 +1,218 @@
-Detecting compiler hash for triplet arm64-osx...
-Compiler found: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-All requested packages are currently installed.
-Total install time: 167 ns
+Detecting compiler hash for triplet x64-mingw-dynamic...
+-- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7897".
+Compiler found: E:/Applications/Jetbrains/CLion/bin/mingw/bin/g++.exe
+The following packages will be built and installed:
+  * libpng:x64-mingw-dynamic@1.6.43#1 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\1b0781214ef5a3497d0e7db2c0ed7f7fae74248b
+    sdl2:x64-mingw-dynamic@2.30.1 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2\71b609d356d21c9479ddeb27f4737ab70982f4a5
+    sdl2-gfx:x64-mingw-dynamic@1.0.4#11 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-gfx\47c97b80725181cf21b62229de6194b92d74f0fa
+    sdl2-image:x64-mingw-dynamic@2.8.2#2 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-image\61b91c7aa89e01e237616121222f98e505a6d44b
+    zlib:x64-mingw-dynamic@1.3.1 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\Administrator\AppData\Local\vcpkg\archives in 197 us. Use --debug to see more details.
+Installing 1/5 sdl2:x64-mingw-dynamic@2.30.1...
+Building sdl2:x64-mingw-dynamic@2.30.1...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2\71b609d356d21c9479ddeb27f4737ab70982f4a5: info: installing overlay port from here
+-- Using cached libsdl-org-SDL-release-2.30.1.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2/src/ase-2.30.1-ba01639f2d.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/libsdl-org-SDL-release-2.30.1.tar.gz
+-- Applying patch deps.patch
+-- Applying patch alsa-dep-fix.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2/src/ase-2.30.1-ba01639f2d.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+CMake Warning at E:/Github/2D-Game-Physics_Practice/cmake-build-debug/vcpkg_installed/x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:327 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_DISABLE_FIND_PACKAGE_ALSA
+      CMAKE_REQUIRE_FIND_PACKAGE_ALSA
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  buildtrees/versioning_/versions/sdl2/71b609d356d21c9479ddeb27f4737ab70982f4a5/portfile.cmake:43 (vcpkg_cmake_configure)
+  scripts/ports.cmake:175 (include)
+
+
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/lib/pkgconfig/sdl2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/debug/lib/pkgconfig/sdl2.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/share/sdl2/usage
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/share/sdl2/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2_x64-mingw-dynamic\debug\bin\SDL2d.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2_x64-mingw-dynamic\bin\SDL2.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2\71b609d356d21c9479ddeb27f4737ab70982f4a5\portfile.cmake
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\bin/SDL2.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/bin/SDL2d.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/lib/libSDL2d.dll.a was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/lib/libSDL2maind.a was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\lib/libSDL2.dll.a was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\lib/libSDL2main.a was already present and will be overwritten
+Stored binaries in 1 destinations in 1.1 s.
+Elapsed time to handle sdl2:x64-mingw-dynamic: 3.2 min
+sdl2:x64-mingw-dynamic package ABI: c6c8f90e94ec794a058f3da1ddab0995a5d8ef503615e70d213cdf6655e0908f
+Installing 2/5 sdl2-gfx:x64-mingw-dynamic@1.0.4#11...
+Building sdl2-gfx:x64-mingw-dynamic@1.0.4#11...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-gfx\47c97b80725181cf21b62229de6194b92d74f0fa: info: installing overlay port from here
+-- Using cached SDL2_gfx-1.0.4.zip.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-gfx/src/1.0.4-6ff13228fb.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/SDL2_gfx-1.0.4.zip
+-- Applying patch 001-lrint-arm64.patch
+-- Applying patch 002-use-the-lrintf-intrinsic.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-gfx/src/1.0.4-6ff13228fb.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-gfx_x64-mingw-dynamic/share/sdl2-gfx/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-gfx_x64-mingw-dynamic\debug\bin\libSDL2_gfx.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-gfx_x64-mingw-dynamic\bin\libSDL2_gfx.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-gfx\47c97b80725181cf21b62229de6194b92d74f0fa\portfile.cmake
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\bin/libSDL2_gfx.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/bin/libSDL2_gfx.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/lib/libSDL2_gfx.dll.a was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\lib/libSDL2_gfx.dll.a was already present and will be overwritten
+Stored binaries in 1 destinations in 73.7 ms.
+Elapsed time to handle sdl2-gfx:x64-mingw-dynamic: 9.9 s
+sdl2-gfx:x64-mingw-dynamic package ABI: c42ee72d512823bfddb9ae7368da2650366c03dcf3d346e16c50d2d4ab1bcd8f
+Installing 3/5 zlib:x64-mingw-dynamic@1.3.1...
+Building zlib:x64-mingw-dynamic@1.3.1...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9: info: installing overlay port from here
+-- Using cached madler-zlib-v1.3.1.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+-- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+-- Applying patch 0002-build-static-or-shared-not-both.patch
+-- Applying patch 0003-android-and-mingw-fixes.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/lib/pkgconfig/zlib.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/debug/lib/pkgconfig/zlib.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/share/zlib/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\zlib_x64-mingw-dynamic\debug\bin\libzlibd1.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\zlib_x64-mingw-dynamic\bin\libzlib1.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9\portfile.cmake
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\bin/libzlib1.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/bin/libzlibd1.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/lib/libzlibd.dll.a was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\lib/libzlib.dll.a was already present and will be overwritten
+Stored binaries in 1 destinations in 104 ms.
+Elapsed time to handle zlib:x64-mingw-dynamic: 15 s
+zlib:x64-mingw-dynamic package ABI: 40d25fb40d622cacfa1db98cf298da09cec53d8dd35a6cf737d6412a14ac73be
+Installing 4/5 libpng:x64-mingw-dynamic@1.6.43#1...
+Building libpng:x64-mingw-dynamic@1.6.43#1...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\1b0781214ef5a3497d0e7db2c0ed7f7fae74248b: info: installing overlay port from here
+-- Using cached glennrp-libpng-v1.6.43.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/libpng/src/v1.6.43-e957a32120.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/glennrp-libpng-v1.6.43.tar.gz
+-- Applying patch cmake.patch
+-- Applying patch fix-export-targets.patch
+-- Applying patch libm.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch fix-msa-support-for-mips.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/libpng/src/v1.6.43-e957a32120.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/share/png/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/lib/pkgconfig/libpng16.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/debug/lib/pkgconfig/libpng16.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/debug/lib/pkgconfig/libpng.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/lib/pkgconfig/libpng.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/share/libpng/usage
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/share/libpng/copyright
+-- Performing post-build validation
+warning: The following dlls were found in /lib or /debug/lib. Please move them to /bin or /debug/bin, respectively.
+
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\lib\libpng.dll
+
+warning: The following dlls were found in /lib or /debug/lib. Please move them to /bin or /debug/bin, respectively.
+
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\debug\lib\libpng.dll
+
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\debug\bin\libpng16d.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\bin\libpng16.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 3 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\1b0781214ef5a3497d0e7db2c0ed7f7fae74248b\portfile.cmake
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\bin/libpng16.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/bin/libpng16d.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/lib/libpng.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/lib/libpng16d.dll.a was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\lib/libpng.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\lib/libpng16.dll.a was already present and will be overwritten
+Stored binaries in 1 destinations in 137 ms.
+Elapsed time to handle libpng:x64-mingw-dynamic: 26 s
+libpng:x64-mingw-dynamic package ABI: 23972bce91618c1cc1a6c9d85a85c12cdb9c58b06ab2cbf20a92fc23976cb8ff
+Installing 5/5 sdl2-image:x64-mingw-dynamic@2.8.2#2...
+Building sdl2-image:x64-mingw-dynamic@2.8.2#2...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-image\61b91c7aa89e01e237616121222f98e505a6d44b: info: installing overlay port from here
+-- Using cached libsdl-org-SDL_image-release-2.8.2.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-image/src/ease-2.8.2-89b2ee6bc2.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/libsdl-org-SDL_image-release-2.8.2.tar.gz
+-- Applying patch fix-findwebp.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-image/src/ease-2.8.2-89b2ee6bc2.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/lib/pkgconfig/SDL2_image.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/debug/lib/pkgconfig/SDL2_image.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/share/sdl2-image/usage
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/share/sdl2-image/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-image_x64-mingw-dynamic\debug\bin\SDL2_imaged.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-image_x64-mingw-dynamic\bin\SDL2_image.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-image\61b91c7aa89e01e237616121222f98e505a6d44b\portfile.cmake
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\bin/SDL2_image.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/bin/SDL2_imaged.dll was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\debug/lib/libSDL2_imaged.dll.a was already present and will be overwritten
+warning: File E:\Github\2D-Game-Physics_Practice\cmake-build-debug\vcpkg_installed\x64-mingw-dynamic\lib/libSDL2_image.dll.a was already present and will be overwritten
+Stored binaries in 1 destinations in 77.8 ms.
+Elapsed time to handle sdl2-image:x64-mingw-dynamic: 13 s
+sdl2-image:x64-mingw-dynamic package ABI: ac896f9390ec46de8246a516b0161608c6762b4b862c26a112d4cdf29db931c9
+Total install time: 4.2 min
 sdl2 provides CMake targets:
 
     find_package(SDL2 CONFIG REQUIRED)
