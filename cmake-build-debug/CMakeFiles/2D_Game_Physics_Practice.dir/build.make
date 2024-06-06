@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = E:\Applications\Jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = E:\Applications\Jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,45 +73,45 @@ CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.obj: CMakeFiles/2D_Game_Phy
 CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.obj: E:/Github/2D-Game-Physics_Practice/src/main.cpp
 CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.obj: CMakeFiles/2D_Game_Physics_Practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Github\2D-Game-Physics_Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.obj"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.obj -MF CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.obj.d -o CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.obj -c E:\Github\2D-Game-Physics_Practice\src\main.cpp
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.obj -MF CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.obj.d -o CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.obj -c E:\Github\2D-Game-Physics_Practice\src\main.cpp
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.i"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\2D-Game-Physics_Practice\src\main.cpp > CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.i
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\2D-Game-Physics_Practice\src\main.cpp > CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.i
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2D_Game_Physics_Practice.dir/src/main.cpp.s"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\2D-Game-Physics_Practice\src\main.cpp -o CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.s
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\2D-Game-Physics_Practice\src\main.cpp -o CMakeFiles\2D_Game_Physics_Practice.dir\src\main.cpp.s
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.obj: CMakeFiles/2D_Game_Physics_Practice.dir/flags.make
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.obj: CMakeFiles/2D_Game_Physics_Practice.dir/includes_CXX.rsp
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.obj: E:/Github/2D-Game-Physics_Practice/src/Application.cpp
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.obj: CMakeFiles/2D_Game_Physics_Practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Github\2D-Game-Physics_Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.obj"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.obj -MF CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.obj.d -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.obj -c E:\Github\2D-Game-Physics_Practice\src\Application.cpp
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.obj -MF CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.obj.d -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.obj -c E:\Github\2D-Game-Physics_Practice\src\Application.cpp
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.i"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\2D-Game-Physics_Practice\src\Application.cpp > CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.i
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\2D-Game-Physics_Practice\src\Application.cpp > CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.i
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2D_Game_Physics_Practice.dir/src/Application.cpp.s"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\2D-Game-Physics_Practice\src\Application.cpp -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.s
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\2D-Game-Physics_Practice\src\Application.cpp -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Application.cpp.s
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.obj: CMakeFiles/2D_Game_Physics_Practice.dir/flags.make
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.obj: CMakeFiles/2D_Game_Physics_Practice.dir/includes_CXX.rsp
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.obj: E:/Github/2D-Game-Physics_Practice/src/Graphics.cpp
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.obj: CMakeFiles/2D_Game_Physics_Practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Github\2D-Game-Physics_Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.obj"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.obj -MF CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.obj.d -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.obj -c E:\Github\2D-Game-Physics_Practice\src\Graphics.cpp
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.obj -MF CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.obj.d -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.obj -c E:\Github\2D-Game-Physics_Practice\src\Graphics.cpp
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.i"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\2D-Game-Physics_Practice\src\Graphics.cpp > CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.i
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Github\2D-Game-Physics_Practice\src\Graphics.cpp > CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.i
 
 CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2D_Game_Physics_Practice.dir/src/Graphics.cpp.s"
-	C:\Users\Administrator\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\2D-Game-Physics_Practice\src\Graphics.cpp -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.s
+	E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Github\2D-Game-Physics_Practice\src\Graphics.cpp -o CMakeFiles\2D_Game_Physics_Practice.dir\src\Graphics.cpp.s
 
 # Object files for target 2D_Game_Physics_Practice
 2D_Game_Physics_Practice_OBJECTS = \

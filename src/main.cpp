@@ -1,4 +1,4 @@
-//不这句会导致出现undefined reference to WinMain
+//不这句会导致出现undefined reference to WinMain,这里是绕过这套宏定义
 #define SDL_MAIN_HANDLED
 #include "Application.h"
 

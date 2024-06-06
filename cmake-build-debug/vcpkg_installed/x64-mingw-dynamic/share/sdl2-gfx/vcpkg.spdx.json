@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/sdl2-gfx-x64-mingw-dynamic-1.0.4#11-74fa1ba6-031a-454c-9b41-b6afc9db474c",
-  "name": "sdl2-gfx:x64-mingw-dynamic@1.0.4#11 f3b33ea167d3285d35f87c911c06c8599320b7a463f03005ca277f49babb2bc0",
+  "documentNamespace": "https://spdx.org/spdxdocs/sdl2-gfx-x64-mingw-dynamic-1.0.4#11-a9407f49-8f69-47c4-9b9a-a9315e579238",
+  "name": "sdl2-gfx:x64-mingw-dynamic@1.0.4#11 fca071c527bfc997f501d2c20353b2d40053570296f11154852cef0a06ebcd6f",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-d6945642ee5c3076addd1a42c331bbf4cfc97457"
     ],
-    "created": "2024-06-03T03:59:38Z"
+    "created": "2024-06-05T07:32:58Z"
   },
   "relationships": [
     {
@@ -78,7 +78,7 @@
       "name": "sdl2-gfx",
       "SPDXID": "SPDXRef-port",
       "versionInfo": "1.0.4#11",
-      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/sdl2-gfx",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@47c97b80725181cf21b62229de6194b92d74f0fa",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
@@ -88,7 +88,7 @@
     {
       "name": "sdl2-gfx:x64-mingw-dynamic",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "f3b33ea167d3285d35f87c911c06c8599320b7a463f03005ca277f49babb2bc0",
+      "versionInfo": "fca071c527bfc997f501d2c20353b2d40053570296f11154852cef0a06ebcd6f",
       "downloadLocation": "NONE",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
@@ -113,7 +113,7 @@
   ],
   "files": [
     {
-      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/ports/sdl2-gfx/001-lrint-arm64.patch",
+      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/sdl2-gfx/47c97b80725181cf21b62229de6194b92d74f0fa/001-lrint-arm64.patch",
       "SPDXID": "SPDXRef-file-0",
       "checksums": [
         {
@@ -125,7 +125,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/ports/sdl2-gfx/002-use-the-lrintf-intrinsic.patch",
+      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/sdl2-gfx/47c97b80725181cf21b62229de6194b92d74f0fa/002-use-the-lrintf-intrinsic.patch",
       "SPDXID": "SPDXRef-file-1",
       "checksums": [
         {
@@ -137,7 +137,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/ports/sdl2-gfx/CMakeLists.txt",
+      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/sdl2-gfx/47c97b80725181cf21b62229de6194b92d74f0fa/CMakeLists.txt",
       "SPDXID": "SPDXRef-file-2",
       "checksums": [
         {
@@ -149,7 +149,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/ports/sdl2-gfx/portfile.cmake",
+      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/sdl2-gfx/47c97b80725181cf21b62229de6194b92d74f0fa/portfile.cmake",
       "SPDXID": "SPDXRef-file-3",
       "checksums": [
         {
@@ -161,7 +161,7 @@
       "copyrightText": "NOASSERTION"
     },
     {
-      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/ports/sdl2-gfx/vcpkg.json",
+      "fileName": "./C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/versioning_/versions/sdl2-gfx/47c97b80725181cf21b62229de6194b92d74f0fa/vcpkg.json",
       "SPDXID": "SPDXRef-file-4",
       "checksums": [
         {

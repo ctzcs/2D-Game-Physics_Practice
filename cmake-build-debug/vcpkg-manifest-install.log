@@ -1,8 +1,234 @@
 Detecting compiler hash for triplet x64-mingw-dynamic...
 -- Automatically setting %HTTP(S)_PROXY% environment variables to "127.0.0.1:7897".
-Compiler found: C:/Users/Administrator/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe
-All requested packages are currently installed.
-Total install time: 1.1 us
+Compiler found: E:/Applications/Jetbrains/CLion/bin/mingw/bin/g++.exe
+The following packages will be rebuilt:
+  * libpng:x64-mingw-dynamic@1.6.43#1 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\1b0781214ef5a3497d0e7db2c0ed7f7fae74248b
+    sdl2:x64-mingw-dynamic@2.30.1 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2\71b609d356d21c9479ddeb27f4737ab70982f4a5
+    sdl2-gfx:x64-mingw-dynamic@1.0.4#11 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-gfx\47c97b80725181cf21b62229de6194b92d74f0fa
+    sdl2-image:x64-mingw-dynamic@2.8.2#2 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-image\61b91c7aa89e01e237616121222f98e505a6d44b
+    vcpkg-cmake:x64-mingw-dynamic@2024-04-18 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\a10a94e8d0071ed4804d40d0f0f0c5e4e7180afd
+    vcpkg-cmake-config:x64-mingw-dynamic@2022-02-06#1 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+    zlib:x64-mingw-dynamic@1.3.1 -- C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9
+Additional packages (*) will be modified to complete this operation.
+Restored 0 package(s) from C:\Users\Administrator\AppData\Local\vcpkg\archives in 634 us. Use --debug to see more details.
+Removing 1/14 sdl2-image:x64-mingw-dynamic
+Elapsed time to handle sdl2-image:x64-mingw-dynamic: 15.3 ms
+Removing 2/14 libpng:x64-mingw-dynamic
+Elapsed time to handle libpng:x64-mingw-dynamic: 19.4 ms
+Removing 3/14 zlib:x64-mingw-dynamic
+Elapsed time to handle zlib:x64-mingw-dynamic: 9.25 ms
+Removing 4/14 sdl2-gfx:x64-mingw-dynamic
+Elapsed time to handle sdl2-gfx:x64-mingw-dynamic: 10.4 ms
+Removing 5/14 sdl2:x64-mingw-dynamic
+Elapsed time to handle sdl2:x64-mingw-dynamic: 43.5 ms
+Removing 6/14 vcpkg-cmake:x64-mingw-dynamic
+Elapsed time to handle vcpkg-cmake:x64-mingw-dynamic: 5.85 ms
+Removing 7/14 vcpkg-cmake-config:x64-mingw-dynamic
+Elapsed time to handle vcpkg-cmake-config:x64-mingw-dynamic: 5.53 ms
+Installing 8/14 vcpkg-cmake-config:x64-mingw-dynamic@2022-02-06#1...
+Building vcpkg-cmake-config:x64-mingw-dynamic@2022-02-06#1...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\8d54cc4f487d51b655abec5f9c9c3f86ca83311f: info: installing overlay port from here
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake-config_x64-mingw-dynamic/share/vcpkg-cmake-config/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 229 ms.
+Elapsed time to handle vcpkg-cmake-config:x64-mingw-dynamic: 329 ms
+vcpkg-cmake-config:x64-mingw-dynamic package ABI: 888397183e4c26f6d9f2f4ca9a7bb461374d9cc21b87b795bf7c2f185c5f88fb
+Installing 9/14 vcpkg-cmake:x64-mingw-dynamic@2024-04-18...
+Building vcpkg-cmake:x64-mingw-dynamic@2024-04-18...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\a10a94e8d0071ed4804d40d0f0f0c5e4e7180afd: info: installing overlay port from here
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/vcpkg-port-config.cmake
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/vcpkg-cmake_x64-mingw-dynamic/share/vcpkg-cmake/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 34.1 ms.
+Elapsed time to handle vcpkg-cmake:x64-mingw-dynamic: 142 ms
+vcpkg-cmake:x64-mingw-dynamic package ABI: 9b2fce6133c7cd9ff2e6f4cedb46f265281d44e8121ba0e3dfc0a1122670ef3c
+Installing 10/14 sdl2:x64-mingw-dynamic@2.30.1...
+Building sdl2:x64-mingw-dynamic@2.30.1...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2\71b609d356d21c9479ddeb27f4737ab70982f4a5: info: installing overlay port from here
+-- Using cached libsdl-org-SDL-release-2.30.1.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2/src/ase-2.30.1-ba01639f2d.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/libsdl-org-SDL-release-2.30.1.tar.gz
+-- Applying patch deps.patch
+-- Applying patch alsa-dep-fix.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2/src/ase-2.30.1-ba01639f2d.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+CMake Warning at E:/Github/2D-Game-Physics_Practice/cmake-build-debug/vcpkg_installed/x64-mingw-dynamic/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:327 (message):
+  The following variables are not used in CMakeLists.txt:
+
+      CMAKE_DISABLE_FIND_PACKAGE_ALSA
+      CMAKE_REQUIRE_FIND_PACKAGE_ALSA
+
+  Please recheck them and remove the unnecessary options from the
+  `vcpkg_cmake_configure` call.
+
+  If these options should still be passed for whatever reason, please use the
+  `MAYBE_UNUSED_VARIABLES` argument.
+Call Stack (most recent call first):
+  buildtrees/versioning_/versions/sdl2/71b609d356d21c9479ddeb27f4737ab70982f4a5/portfile.cmake:43 (vcpkg_cmake_configure)
+  scripts/ports.cmake:175 (include)
+
+
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/lib/pkgconfig/sdl2.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/debug/lib/pkgconfig/sdl2.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/share/sdl2/usage
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2_x64-mingw-dynamic/share/sdl2/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2_x64-mingw-dynamic\debug\bin\SDL2d.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2_x64-mingw-dynamic\bin\SDL2.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2\71b609d356d21c9479ddeb27f4737ab70982f4a5\portfile.cmake
+Stored binaries in 1 destinations in 747 ms.
+Elapsed time to handle sdl2:x64-mingw-dynamic: 3 min
+sdl2:x64-mingw-dynamic package ABI: ab2bea73bc35f26402a21d5842d7ba340201cc9e47c3c82f942c8515381d5e9b
+Installing 11/14 sdl2-gfx:x64-mingw-dynamic@1.0.4#11...
+Building sdl2-gfx:x64-mingw-dynamic@1.0.4#11...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-gfx\47c97b80725181cf21b62229de6194b92d74f0fa: info: installing overlay port from here
+-- Using cached SDL2_gfx-1.0.4.zip.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-gfx/src/1.0.4-6ff13228fb.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/SDL2_gfx-1.0.4.zip
+-- Applying patch 001-lrint-arm64.patch
+-- Applying patch 002-use-the-lrintf-intrinsic.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-gfx/src/1.0.4-6ff13228fb.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-gfx_x64-mingw-dynamic/share/sdl2-gfx/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-gfx_x64-mingw-dynamic\debug\bin\libSDL2_gfx.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-gfx_x64-mingw-dynamic\bin\libSDL2_gfx.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-gfx\47c97b80725181cf21b62229de6194b92d74f0fa\portfile.cmake
+Stored binaries in 1 destinations in 44.6 ms.
+Elapsed time to handle sdl2-gfx:x64-mingw-dynamic: 7 s
+sdl2-gfx:x64-mingw-dynamic package ABI: fca071c527bfc997f501d2c20353b2d40053570296f11154852cef0a06ebcd6f
+Installing 12/14 zlib:x64-mingw-dynamic@1.3.1...
+Building zlib:x64-mingw-dynamic@1.3.1...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9: info: installing overlay port from here
+-- Using cached madler-zlib-v1.3.1.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+-- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+-- Applying patch 0002-build-static-or-shared-not-both.patch
+-- Applying patch 0003-android-and-mingw-fixes.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/share/zlib/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/lib/pkgconfig/zlib.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/debug/lib/pkgconfig/zlib.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/zlib_x64-mingw-dynamic/share/zlib/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\zlib_x64-mingw-dynamic\debug\bin\libzlibd1.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\zlib_x64-mingw-dynamic\bin\libzlib1.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9\portfile.cmake
+Stored binaries in 1 destinations in 76 ms.
+Elapsed time to handle zlib:x64-mingw-dynamic: 8.6 s
+zlib:x64-mingw-dynamic package ABI: 5326f81582e6eec448cf461164c114b63e31fa62d7cba8181a3dd5dc01ad194c
+Installing 13/14 libpng:x64-mingw-dynamic@1.6.43#1...
+Building libpng:x64-mingw-dynamic@1.6.43#1...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\1b0781214ef5a3497d0e7db2c0ed7f7fae74248b: info: installing overlay port from here
+-- Using cached glennrp-libpng-v1.6.43.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/libpng/src/v1.6.43-e957a32120.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/glennrp-libpng-v1.6.43.tar.gz
+-- Applying patch cmake.patch
+-- Applying patch fix-export-targets.patch
+-- Applying patch libm.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch fix-msa-support-for-mips.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/libpng/src/v1.6.43-e957a32120.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/share/png/vcpkg-cmake-wrapper.cmake
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/lib/pkgconfig/libpng16.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/debug/lib/pkgconfig/libpng16.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/debug/lib/pkgconfig/libpng.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/lib/pkgconfig/libpng.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/share/libpng/usage
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/libpng_x64-mingw-dynamic/share/libpng/copyright
+-- Performing post-build validation
+warning: The following dlls were found in /lib or /debug/lib. Please move them to /bin or /debug/bin, respectively.
+
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\lib\libpng.dll
+
+warning: The following dlls were found in /lib or /debug/lib. Please move them to /bin or /debug/bin, respectively.
+
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\debug\lib\libpng.dll
+
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\debug\bin\libpng16d.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\libpng_x64-mingw-dynamic\bin\libpng16.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 3 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\libpng\1b0781214ef5a3497d0e7db2c0ed7f7fae74248b\portfile.cmake
+Stored binaries in 1 destinations in 111 ms.
+Elapsed time to handle libpng:x64-mingw-dynamic: 13 s
+libpng:x64-mingw-dynamic package ABI: ffae1ac6ff097e29a2b50aeac9300d4ce3bb523d443074a157662446f9bc42b5
+Installing 14/14 sdl2-image:x64-mingw-dynamic@2.8.2#2...
+Building sdl2-image:x64-mingw-dynamic@2.8.2#2...
+C:\Users\Administrator\.vcpkg-clion\vcpkg\triplets\community\x64-mingw-dynamic.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-image\61b91c7aa89e01e237616121222f98e505a6d44b: info: installing overlay port from here
+-- Using cached libsdl-org-SDL_image-release-2.8.2.tar.gz.
+-- Cleaning sources at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-image/src/ease-2.8.2-89b2ee6bc2.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/libsdl-org-SDL_image-release-2.8.2.tar.gz
+-- Applying patch fix-findwebp.patch
+-- Using source at C:/Users/Administrator/.vcpkg-clion/vcpkg/buildtrees/sdl2-image/src/ease-2.8.2-89b2ee6bc2.clean
+-- Found external ninja('1.12.0').
+-- Configuring x64-mingw-dynamic
+-- Building x64-mingw-dynamic-dbg
+-- Building x64-mingw-dynamic-rel
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/lib/pkgconfig/SDL2_image.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Administrator/.vcpkg-clion/vcpkg/downloads/tools/msys2/d33df895d441a36d
+-- Fixing pkgconfig file: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/debug/lib/pkgconfig/SDL2_image.pc
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/share/sdl2-image/usage
+-- Installing: C:/Users/Administrator/.vcpkg-clion/vcpkg/packages/sdl2-image_x64-mingw-dynamic/share/sdl2-image/copyright
+-- Performing post-build validation
+warning: Detected outdated dynamic CRT in the following files:
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-image_x64-mingw-dynamic\debug\bin\SDL2_imaged.dll:msvcrt.dll
+  C:\Users\Administrator\.vcpkg-clion\vcpkg\packages\sdl2-image_x64-mingw-dynamic\bin\SDL2_image.dll:msvcrt.dll
+To inspect the dll files, use:
+  dumpbin.exe /dependents mylibfile.dll
+error: Found 1 post-build check problem(s). To submit these ports to curated catalogs, please first correct the portfile: C:\Users\Administrator\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\sdl2-image\61b91c7aa89e01e237616121222f98e505a6d44b\portfile.cmake
+Stored binaries in 1 destinations in 69.7 ms.
+Elapsed time to handle sdl2-image:x64-mingw-dynamic: 9.9 s
+sdl2-image:x64-mingw-dynamic package ABI: 6243888024f65294a9d1ad30fcf41d335c40a55fa49a8aa21326e62988e79e59
+Total install time: 3.7 min
 sdl2 provides CMake targets:
 
     find_package(SDL2 CONFIG REQUIRED)
