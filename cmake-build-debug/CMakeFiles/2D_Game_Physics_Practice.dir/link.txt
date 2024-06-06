@@ -1,3 +1,0 @@
-E:\Applications\Jetbrains\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\2D_Game_Physics_Practice.dir/objects.a
-E:\Applications\Jetbrains\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\2D_Game_Physics_Practice.dir/objects.a @CMakeFiles\2D_Game_Physics_Practice.dir\objects1.rsp
-E:\Applications\Jetbrains\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\2D_Game_Physics_Practice.dir/objects.a -Wl,--no-whole-archive -o 2D_Game_Physics_Practice.exe -Wl,--out-implib,lib2D_Game_Physics_Practice.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\2D_Game_Physics_Practice.dir\linkLibs.rsp

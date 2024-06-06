@@ -1,3 +1,0 @@
-E:/Github/2D-Game-Physics_Practice/cmake-build-debug/CMakeFiles/2D_Game_Physics_Practice.dir
-E:/Github/2D-Game-Physics_Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Github/2D-Game-Physics_Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
