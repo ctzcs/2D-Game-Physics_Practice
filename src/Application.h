@@ -2,11 +2,14 @@
 #define APPLICATION_H
 
 #include "./Graphics.h"
+#include "Physics/Particle.h"
+#include "Physics/Constants.h"
 
 class Application {
     private:
         bool running = false;
-
+        Particle* particle;
+        int timePreviousFrame;
     public:
         Application() = default;
         ~Application() = default;

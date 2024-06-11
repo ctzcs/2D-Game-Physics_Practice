@@ -9,8 +9,8 @@ bool Application::IsRunning() {
 ///////////////////////////////////////////////////////////////////////////////
 void Application::Setup() {
     running = Graphics::OpenWindow();
-
     // TODO: setup objects in the scene
+    particle = new Particle(50,100,1.0);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -36,6 +36,14 @@ void Application::Input() {
 ///////////////////////////////////////////////////////////////////////////////
 void Application::Update() {
     // TODO: update all objects in the scene
+    int nowTicks = SDL_GetTicks();
+    int timeToWait = MILLISECS_PER_FRAME - (nowTicks - timePreviousFrame);
+    if(timeToWait > 0){
+        SDL_Delay(timeToWait);
+    }
+    timePreviousFrame = nowTicks;
+    particle->velocity = Vec2(2.0,0);
+    particle->position += particle->velocity;
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -43,7 +51,7 @@ void Application::Update() {
 ///////////////////////////////////////////////////////////////////////////////
 void Application::Render() {
     Graphics::ClearScreen(0xFF056263);
-    Graphics::DrawFillCircle(200, 200, 40, 0xFFFFFFFF);
+    Graphics::DrawFillCircle(particle->position.x, particle->position.y, 4, 0xFFFFFFFF);
     Graphics::RenderFrame();
 }
 
@@ -52,6 +60,6 @@ void Application::Render() {
 ///////////////////////////////////////////////////////////////////////////////
 void Application::Destroy() {
     // TODO: destroy all objects in the scene
-
+    delete particle;
     Graphics::CloseWindow();
 }
