@@ -2,13 +2,13 @@ cmake_minimum_required(VERSION 3.28)
 project(2D_Game_Physics_Practice)
 
 set(CMAKE_CXX_STANDARD 17)
-
+#链接src
 set(PHYSICS_SOURCE_FILES
         src/Application.cpp
         src/Graphics.cpp
         src/Physics/Vec2.cpp
         src/Physics/Particle.cpp)
-
+#链接头文件
 set(PHYSICS_HEADER_FILES
         src/Application.h
         src/Graphics.h
@@ -16,11 +16,8 @@ set(PHYSICS_HEADER_FILES
         src/Physics/Particle.h
         src/Physics/Constants.h)
 
-
-add_executable(2D_Game_Physics_Practice src/main.cpp
-
-
-)
+#添加main
+add_executable(2D_Game_Physics_Practice src/main.cpp)
 target_sources(2D_Game_Physics_Practice PRIVATE
         ${PHYSICS_HEADER_FILES}
         ${PHYSICS_SOURCE_FILES}
